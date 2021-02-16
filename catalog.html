@@ -9,11 +9,9 @@
 
   <body>
   <header class="header">
-    <div class="logo">
       <a href="index.html">
         <img src="#" width="138" height="70" alt="Sedona">
        </a>
-    </div>
   <nav>
       <ul>
          <li><a href="#">Информация</a></li>
@@ -30,28 +28,28 @@
       <h2 class="visually-hidden">Фильтр</h2>
       <form action="https://echo.htmlacademy.ru/" method="get">
       <fieldset>
-      <legend>ИНФРАСТРУКТУРА:</legend>
+      <legend>инфраструктура:</legend>
         <input type="checkbox" name="pool" id="pool" checked>
-        <label for="pool">БАССЕЙН</label>
+        <label for="pool">бассейн</label>
         <input type="checkbox" name="parking" id="parking">
-        <label for="parking">ПАРКОВКА</label>
+        <label for="parking">парковка</label>
         <input type="checkbox" name="WI-FI" id="WI-FI">
-        <label for="WI-FI">WI-FI</label>
+        <label for="WI-FI">wi-fi</label>
       </fieldset>
       <fieldset>
-      <legend>ТИП ЖИЛЬЯ:</legend>
+      <legend>тип жилья:</legend>
         <input type="checkbox" name="hotel" id="hotel" checked>
-        <label for="hotel">ГОСТИНИЦА</label>
+        <label for="hotel">гостиница</label>
         <input type="checkbox" name="motel" id="motel" checked>
-        <label for="motel">МОТЕЛЬ</label>
+        <label for="motel">мотель</label>
         <input type="checkbox" name="apartments" id="apartments" checked>
-        <label for="apartments">АПАРТАМЕНТЫ</label>
+        <label for="apartments">апартаменты</label>
       </fieldset>
       <fieldset>
-      <legend>СТОИМОСТЬ В СУТКИ (Р):</legend>
+      <legend>стоимость в сутки (р):</legend>
         <div>
-        <input type="text" value="ОТ 0">
-        <input type="text" value="ДО 3000 ">
+          <input type="number" value="0">
+          <input type="number" value="3000">
         </div>
         <div class="controls"></div>
         <input class="btn-form" type="submit" value="ПОКАЗАТЬ">
@@ -61,85 +59,87 @@
 
 
     <section>
-      <h3 class="visually-hidden">Сортировка</h3>
-      <p>НАЙДЕНО: 3</p>
-      <p>СОРТИРОВКА:</p>
+      <h2 class="visually-hidden">найденные гостиницы</h2>
+      <p>найдено: 3</p>
+      <p>сортировка:</p>
       <ul>
         <li>
-          <a href="#">ПО ЦЕНЕ</a>
+          <a href="#">по цене</a>
         </li>
         <li>
-          <a href="#">ПО ТИПУ</a>
+          <a href="#">по типу</a>
         </li>
         <li>
-          <a href="#">ПО РЕЙТИНГУ</a>
+          <a href="#">по рейтингу</a>
         </li>
       </ul>
       <div>
         <a href="#" class="up"></a>
         <a href="#" class="down"></a>
       </div>
-    </section>
 
-
-    <div>
-     <img src="https://via.placeholder.com/135x90" alt="AMARA RESORT & SPA">
-      <div>
-        <p>AMARA RESORT &lt; SPA</p>p>
-        <p>ГОСТИНИЦА</p>
+      <ul>
+      <li>
+        <img src="https://via.placeholder.com/135x90" alt="AMARA RESORT & SPA">
+        <h3>AMARA RESORT &lt; SPA</h3>
+        <p>гостиница</p>
         <p>ОТ 4000 Р.</p>
         <div>
-          <a href="#">ПОДРОБНЕЕ</a>
-          <a href="#">ЗАБРОНИРОВАТЬ</a>
+          <a href="#">подробнее</a>
+          <a href="#">забронировать</a>
         </div>
-      </div>
-      <div>
-        <p>РЕЙТИНГ: 8,5</p>
-      </div>
-    </div>
-    <div>
-     <img src="https://via.placeholder.com/135x90" alt="DESERT QUAIL INN">
-      <div>
-        <p>DESERT QUAIL INN</p>
-        <p>МОТЕЛЬ</p>
+        <div>
+        <p>рейтинг: 8,5</p>
+        </div>
+       </li>
+       <li>
+        <img src="https://via.placeholder.com/135x90" alt="DESERT QUAIL INN">
+        <h3>DESERT QUAIL INN</h3>
+        <p>мотель</p>
         <p>ОТ 3000 Р.</p>
         <div>
-          <a href="#">ПОДРОБНЕЕ</a>
-          <a href="#">ЗАБРОНИРОВАТЬ</a>
+          <a href="#">подробнее</a>
+          <a href="#">забронировать</a>
         </div>
-      </div>
-      <div>
-        <p>РЕЙТИНГ: 8,9</p>
-      </div>
-    </div>
-    <div>
-     <img src="https://via.placeholder.com/135x90" alt="VILLAS AT POCO DIABLO">
-      <div>
-        <p>VILLAS AT POCO DIABLO</p>
-        <p>МОТЕЛЬ</p>
+        <div>
+        <p>рейтинг: 8,9</p>
+        </div>
+       </li>
+       <li>
+        <img src="https://via.placeholder.com/135x90" alt="VILLAS AT POCO DIABLO">
+        <h3>VILLAS AT POCO DIABLO</h3>
+        <p>апартаменты</p>
         <p>ОТ 2000 Р.</p>
         <div>
-          <a href="#">ПОДРОБНЕЕ</a>
-          <a href="#">ЗАБРОНИРОВАТЬ</a>
+          <a href="#">подробнее</a>
+          <a href="#">забронировать</a>
         </div>
-      </div>
-      <div>
-        <p>РЕЙТИНГ: 9,2</p>
-      </div>
-    </div>
-
+        <div>
+        <p>рейтинг: 9,2</p>
+        </div>
+       </li>
+      </ul>
+   </section>
 </main>
 
 
-<footer>
+ <footer>
     <div>
-    <a href="#">#VISITSEDONA</a>
-    <a href="tel:+74956660166">+7(495)6660166</a>
+      <a href="#">#VISITSEDONA</a>
+      <a href="tel:+74956660166">+7(495)6660166</a>
     </div>
     <div>
-     <a href="#" class="twitter'"></a>
-     <a href="#" class="facebook"></a>
-     <a href="#" class="youtube"></a>
+     <ul>
+      <li>
+        <a href="#" class="twitter'"></a>
+       </li>
+       <li>
+        <a href="#" class="facebook"></a>
+       </li>
+       <li>
+        <a href="#" class="youtube"></a>
+       </li>
+     </ul>
     </div>
     <div>
      <p>WEBSITE BY</p>
@@ -147,7 +147,7 @@
      <img src="https://via.placeholder.com/115x41" alt="HTMLAcademy">
      </a>
     </div>
-</footer>
+ </footer>
 
 </body>
 
